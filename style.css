@@ -160,6 +160,9 @@ a:hover {
     height: 120.6px; /* 4030px */
     top: -20px;
     left: -20px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
 }
 
 body {
@@ -187,7 +190,7 @@ body {
     background: #333;
     transition: 0.3s;
     &.small {
-        height: 170px;
+        height: 100px;
         box-shadow: 0 0 5px rgba(black, 0.2);
         & ~ .offset {
             padding-top: 140px;

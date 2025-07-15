@@ -67,9 +67,9 @@ $(document).scroll(function() {
 
 function navbarScroll() {
   var y = window.scrollY;
-  if (y > 10) {
+  if (y > 12) {
     $('.header').addClass('small');
-  } else if (y < 10) {
+  } else if (y < 12) {
     $('.header').removeClass('small');
   }
 }
