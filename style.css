@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+header,
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+main {
+    padding: 30px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Zen Dots", sans-serif;
+    transition: transform 0.2s ease;
+    
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+/* Тёмная тема */
+.dark-mode {
+    background-color: #111;
+    background: #111;
+    color: #eee;
+}
+.techno_font {
+    font-family: "Space Grotesk", sans-serif;
+}
+.game_name {
+    font-family: "Space Grotesk", sans-serif;
+    margin-top: 7%;
+}
+.game_name2 {
+    font-family: "Space Grotesk", sans-serif;
+    margin-top: 3%;
+}
+.animate-btn {
+    margin-bottom: 1%;
+}
+iframe {
+    margin-top: 10px;
+}
+.jquery-dropdown {
+    margin: 10px 0; 
+}
+
+.jquery-btn {
+    background: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 400px;
+    text-align: left;
+    font-family: "Zen Dots", sans-serif;
+    
+}
+
+.jquery-content {
+    overflow: hidden;
+    display: none;
+    padding: 0 10px;
+    width: 65%;
+    margin-left: 15%;
+}
+.jquery-btn3 {
+    background: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 400px;
+    text-align: left;
+    font-family: "Zen Dots", sans-serif;
+}
+
+.jquery-content3 {
+    overflow: hidden;
+    display: none;
+    padding: 0 10px;
+    width: 65%;
+    margin-left: 15%;
+}
+.jquery-btn2 {
+    background: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 400px;
+    text-align: left;
+    font-family: "Zen Dots", sans-serif;
+}
+
+.jquery-content2 {
+    overflow: hidden;
+    display: none;
+    padding: 0 10px;
+}
+.font2 {
+    font-family: "Noto Sans", sans-serif;
+}
+
+a {
+    color: cornflowerblue;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0073ff;
+}
+.button_font {
+      font-family: "Zen Dots", sans-serif;
+}
+.jquery-btn4 {
+    background: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 400px;
+    text-align: left;
+    font-family: "Zen Dots", sans-serif;
+}
+
+.jquery-content4 {
+    overflow: hidden;
+    display: none;
+    padding: 0 10px;
+    width: 65%;
+    margin-left: 15%;
+}
