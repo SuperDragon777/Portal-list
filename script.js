@@ -63,7 +63,12 @@ $(document).ready(function () {
 
 $(document).scroll(function() {
   navbarScroll();
+  change_text();
+  change_text2();
+  change_text3();
 });
+
+
 
 function navbarScroll() {
   var y = window.scrollY;
@@ -71,5 +76,35 @@ function navbarScroll() {
     $('.header').addClass('small');
   } else if (y < 12) {
     $('.header').removeClass('small');
+  }
+}
+
+function change_text() {
+  const welcomef = document.getElementById("welcome-f");
+  var y = window.scrollY;
+  if (y > 370) {
+    welcomef.textContent = "1. Portal"
+  } else if (y < 370) {
+    welcomef.textContent = "Welcome,\nfriend!"
+  }
+}
+
+function change_text2() {
+  const welcomef = document.getElementById("welcome-f");
+  var y = window.scrollY;
+  if (y > 800) {
+    welcomef.textContent = "2. Portal 2"
+  } else if (y > 370) {
+    welcomef.textContent = "1. Portal"
+  }
+}
+
+function change_text3() {
+  const welcomef = document.getElementById("welcome-f");
+  var y = window.scrollY;
+  if (y > 1300) {
+    welcomef.textContent = "3. Portal: Revolution"
+  } else if (y > 800) {
+    welcomef.textContent = "2. Portal 2"
   }
 }
