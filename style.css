@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
 
 body {
     font-family: Arial;
@@ -34,7 +34,6 @@ button {
     cursor: pointer;
     font-family: "Zen Dots", sans-serif;
     transition: transform 0.2s ease;
-    
 }
 
 button:hover {
@@ -65,7 +64,7 @@ iframe {
     margin-top: 10px;
 }
 .jquery-dropdown {
-    margin: 10px 0; 
+    margin: 10px 0;
 }
 
 .jquery-btn {
@@ -77,7 +76,6 @@ iframe {
     width: 400px;
     text-align: left;
     font-family: "Zen Dots", sans-serif;
-    
 }
 
 .jquery-content {
@@ -135,7 +133,7 @@ a:hover {
     color: #0073ff;
 }
 .button_font {
-      font-family: "Zen Dots", sans-serif;
+    font-family: "Zen Dots", sans-serif;
 }
 .jquery-btn4 {
     background: #4caf50;
@@ -154,4 +152,64 @@ a:hover {
     padding: 0 10px;
     width: 65%;
     margin-left: 15%;
+}
+
+.logo {
+    position: fixed;
+    width: 246.6px; /* 8232px */
+    height: 120.6px; /* 4030px */
+    top: -20px;
+    left: -20px;
+}
+
+body {
+    height: 1500px;
+    background: url(https://www.brainpickings.org/wp-content/themes/brainpickings/images/bckgd_body.png);
+}
+
+.offset {
+    margin-top: 0;
+    padding-top: 270px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.header {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 230px;
+    font-weight: bold;
+    text-align: center;
+    background: #333;
+    transition: 0.3s;
+    &.small {
+        height: 170px;
+        box-shadow: 0 0 5px rgba(black, 0.2);
+        & ~ .offset {
+            padding-top: 140px;
+        }
+        .welcome_f {
+            padding-top: 20px;
+            font-size: 20px;
+            text-shadow: none;
+        }
+    }
+}
+
+.welcome_f {
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    padding-top: 80px;
+    font-size: 50px;
+    text-shadow: 3px 4px rgba(black, 0.1);
+    transition: 0.3s;
+}
+
+.ultra_mega_edinichka {
+    opacity: 0%;
+    padding-top: 200px;
 }
