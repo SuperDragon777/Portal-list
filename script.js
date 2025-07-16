@@ -71,11 +71,14 @@ $(document).scroll(function() {
 
 
 function navbarScroll() {
+  const welcomef = document.getElementById("welcome-f");
   var y = window.scrollY;
   if (y > 12) {
     $('.header').addClass('small');
+    welcomef.style.fontSize = '32px';
   } else if (y < 12) {
     $('.header').removeClass('small');
+    welcomef.style.fontSize = '62px';
   }
 }
 
