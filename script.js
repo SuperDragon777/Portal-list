@@ -70,10 +70,10 @@ $(document).scroll(function () {
 function navbarScroll() {
     const welcomef = document.getElementById("welcome-f");
     var y = window.scrollY;
-    if (y > 12) {
+    if (y > 70) {
         $(".header").addClass("small");
         welcomef.style.fontSize = "32px";
-    } else if (y < 12) {
+    } else if (y < 70) {
         $(".header").removeClass("small");
         welcomef.style.fontSize = "62px";
     }
@@ -82,9 +82,9 @@ function navbarScroll() {
 function change_text() {
     const welcomef = document.getElementById("welcome-f");
     var y = window.scrollY;
-    if (y > 370) {
+    if (y > 790) {
         welcomef.textContent = "1. Portal";
-    } else if (y < 370) {
+    } else if (y < 790) {
         welcomef.textContent = "Welcome,\nfriend!";
     }
 }
@@ -92,9 +92,9 @@ function change_text() {
 function change_text2() {
     const welcomef = document.getElementById("welcome-f");
     var y = window.scrollY;
-    if (y > 800) {
+    if (y > 1220) {
         welcomef.textContent = "2. Portal 2";
-    } else if (y > 370) {
+    } else if (y > 790) {
         welcomef.textContent = "1. Portal";
     }
 }
@@ -102,9 +102,9 @@ function change_text2() {
 function change_text3() {
     const welcomef = document.getElementById("welcome-f");
     var y = window.scrollY;
-    if (y > 1300) {
+    if (y > 1720) {
         welcomef.textContent = "3. Portal: Revolution";
-    } else if (y > 800) {
+    } else if (y > 1220) {
         welcomef.textContent = "2. Portal 2";
     }
 }

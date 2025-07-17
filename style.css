@@ -197,7 +197,7 @@ body {
     font-weight: bold;
     text-align: center;
     background: #333;
-    transition: all 0.3s ease-out;
+    transition: all 0.2s ease-out;
     &.small {
         height: 100px;
         box-shadow: 0 0 5px rgba(black, 0.2);
@@ -237,7 +237,7 @@ html {
     font-family: "Oswald", sans-serif;
     margin: 0;
     padding-top: 40px;
-    transition: font-size 0.3s ease;
+    transition: font-size 0.2s ease;
     text-transform: uppercase;
     background-image: linear-gradient(-225deg, #0077b6 0%, #0096c7 29%, #00b4d8 67%, #48cae4 100%);
     background-size: auto auto;
