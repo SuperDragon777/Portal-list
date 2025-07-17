@@ -309,3 +309,12 @@ html {
     transform: translate(5px, 5px);
   }
 }
+
+.chell {
+    position: absolute;
+    top: -70px;
+} 
+
+.div_f_chell {
+    position: relative;
+}
