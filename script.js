@@ -3,7 +3,6 @@ toggleBtn.addEventListener("click", () => {
     document.body.classList.toggle("dark-mode");
 });
 
-// Анимация при нажатии
 const animBtn = document.querySelector(".animate-btn");
 animBtn.addEventListener("click", () => {
     animBtn.textContent = "Yippee!";
@@ -61,53 +60,51 @@ $(document).ready(function () {
     });
 });
 
-$(document).scroll(function() {
-  navbarScroll();
-  change_text();
-  change_text2();
-  change_text3();
+$(document).scroll(function () {
+    navbarScroll();
+    change_text();
+    change_text2();
+    change_text3();
 });
 
-
-
 function navbarScroll() {
-  const welcomef = document.getElementById("welcome-f");
-  var y = window.scrollY;
-  if (y > 12) {
-    $('.header').addClass('small');
-    welcomef.style.fontSize = '32px';
-  } else if (y < 12) {
-    $('.header').removeClass('small');
-    welcomef.style.fontSize = '62px';
-  }
+    const welcomef = document.getElementById("welcome-f");
+    var y = window.scrollY;
+    if (y > 12) {
+        $(".header").addClass("small");
+        welcomef.style.fontSize = "32px";
+    } else if (y < 12) {
+        $(".header").removeClass("small");
+        welcomef.style.fontSize = "62px";
+    }
 }
 
 function change_text() {
-  const welcomef = document.getElementById("welcome-f");
-  var y = window.scrollY;
-  if (y > 370) {
-    welcomef.textContent = "1. Portal"
-  } else if (y < 370) {
-    welcomef.textContent = "Welcome,\nfriend!"
-  }
+    const welcomef = document.getElementById("welcome-f");
+    var y = window.scrollY;
+    if (y > 370) {
+        welcomef.textContent = "1. Portal";
+    } else if (y < 370) {
+        welcomef.textContent = "Welcome,\nfriend!";
+    }
 }
 
 function change_text2() {
-  const welcomef = document.getElementById("welcome-f");
-  var y = window.scrollY;
-  if (y > 800) {
-    welcomef.textContent = "2. Portal 2"
-  } else if (y > 370) {
-    welcomef.textContent = "1. Portal"
-  }
+    const welcomef = document.getElementById("welcome-f");
+    var y = window.scrollY;
+    if (y > 800) {
+        welcomef.textContent = "2. Portal 2";
+    } else if (y > 370) {
+        welcomef.textContent = "1. Portal";
+    }
 }
 
 function change_text3() {
-  const welcomef = document.getElementById("welcome-f");
-  var y = window.scrollY;
-  if (y > 1300) {
-    welcomef.textContent = "3. Portal: Revolution"
-  } else if (y > 800) {
-    welcomef.textContent = "2. Portal 2"
-  }
+    const welcomef = document.getElementById("welcome-f");
+    var y = window.scrollY;
+    if (y > 1300) {
+        welcomef.textContent = "3. Portal: Revolution";
+    } else if (y > 800) {
+        welcomef.textContent = "2. Portal 2";
+    }
 }
