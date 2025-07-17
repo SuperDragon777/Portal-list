@@ -108,3 +108,14 @@ function change_text3() {
         welcomef.textContent = "2. Portal 2";
     }
 }
+
+window.addEventListener("load", function() {
+    const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const savedTheme = localStorage.getItem('theme');
+    let currentTheme = savedTheme ? savedTheme : (prefersDarkMode ? 'dark' : 'light');
+    if (currentTheme === 'dark') {
+      document.body.classList.toggle("dark-mode");
+    } else {
+      console.log()
+    }
+});
