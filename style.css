@@ -326,3 +326,23 @@ html {
 .div_f_chell {
     position: relative;
 }
+
+.Wheatley {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: -100px;
+    left: -600px;
+    margin-top: -200px;
+}
+
+.Wheatley:hover {
+    cursor: url(cursors/aperture-logo_cursor.png), auto;
+}
+
+.div_f_wheatley {
+    position: relative;
+}
+
+
+
