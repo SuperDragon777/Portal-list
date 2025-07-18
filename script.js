@@ -119,3 +119,8 @@ window.addEventListener("load", function() {
       console.log()
     }
 });
+
+function playSound() {
+    var audio = document.getElementById("myAudio");
+    audio.play();
+}

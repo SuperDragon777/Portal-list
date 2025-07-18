@@ -280,6 +280,7 @@ html {
   text-shadow: 0 0 10px #0073ff, 0 0 20px #0073ff, 0 0 30px #0073ff;
   z-index: 2;
   user-select: none;
+  cursor: pointer;
 }
 
 .matrix-text::before {

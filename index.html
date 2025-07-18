@@ -27,7 +27,10 @@
             <img class="GLaDOS" src="pictures/glados.png" alt="GLaDOS" draggable="false">
             <body class="matrix-bg">
   <div class="matrix-container">
-    <h1 class="matrix-text" data-text="- Oh... it's you">- Oh...<br> it's you</h1>
+    <h1 onclick="playSound()" class="matrix-text" data-text="- Oh... it's you">- Oh...<br> it's you</h1>
+        <audio id="myAudio">
+            <source src="voicelines/oh_its_you.wav">
+        </audio>
     <div class="rain"></div>
   </div>
 </body>
