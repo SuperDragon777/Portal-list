@@ -34,7 +34,7 @@ button {
     background-color: cornflowerblue;
     color: white;
     font-size: 16px;
-    cursor: pointer;
+    cursor: url(cursors/portal-gun_cursor-2.png), auto;
     font-family: "Zen Dots", sans-serif;
     transition: transform 0.2s ease;
     user-select: none;
@@ -84,7 +84,7 @@ iframe {
     color: white;
     padding: 10px;
     border: none;
-    cursor: pointer;
+    cursor: url(cursors/portal-gun_cursor-2.png), auto;
     width: 400px;
     text-align: left;
     font-family: "Zen Dots", sans-serif;
@@ -102,7 +102,7 @@ iframe {
     color: white;
     padding: 10px;
     border: none;
-    cursor: pointer;
+    cursor: url(cursors/portal-gun_cursor-2.png), auto;
     width: 400px;
     text-align: left;
     font-family: "Zen Dots", sans-serif;
@@ -120,7 +120,7 @@ iframe {
     color: white;
     padding: 10px;
     border: none;
-    cursor: pointer;
+    cursor: url(cursors/portal-gun_cursor-2.png), auto;
     width: 400px;
     text-align: left;
     font-family: "Zen Dots", sans-serif;
@@ -152,7 +152,7 @@ a:hover {
     color: white;
     padding: 10px;
     border: none;
-    cursor: pointer;
+    cursor: url(cursors/portal-gun_cursor-2.png), auto;
     width: 400px;
     text-align: left;
     font-family: "Zen Dots", sans-serif;
@@ -237,6 +237,7 @@ q {
 
 html {
     scroll-behavior: smooth;
+    cursor: url(cursors/portal-gun_cursor.png), default;
 }
 
 .welcome-f {
@@ -280,7 +281,7 @@ html {
   text-shadow: 0 0 10px #0073ff, 0 0 20px #0073ff, 0 0 30px #0073ff;
   z-index: 2;
   user-select: none;
-  cursor: pointer;
+  cursor: url(cursors/portal-gun_cursor-2.png), auto;
 }
 
 .matrix-text::before {
@@ -317,6 +318,10 @@ html {
     position: absolute;
     top: -70px;
 } 
+
+.chell:hover {
+    cursor: url(cursors/aperture-logo_cursor.png), auto;
+}
 
 .div_f_chell {
     position: relative;
