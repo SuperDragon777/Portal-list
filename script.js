@@ -110,17 +110,34 @@ function change_text3() {
 }
 
 window.addEventListener("load", function() {
+    const windowWidth = window.innerWidth;
+    console.log("Width: " + windowWidth)
+    const userAgent = navigator.userAgent;
     const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
     const savedTheme = localStorage.getItem('theme');
     let currentTheme = savedTheme ? savedTheme : (prefersDarkMode ? 'dark' : 'light');
     if (currentTheme === 'dark') {
       document.body.classList.toggle("dark-mode");
     } else {
-      console.log()
+      console.log("User using light theme")
     }
+    if (/Mobi|Android|iPhone|iPod|BlackBerry|webOS|Windows Phone/i.test(userAgent)) {
+        document.getElementById('all').style.display = 'none';
+        console.log("Please restart site using pc")
+        alert("Please restart site using pc");
+    }
+    else if (windowWidth < 1400) {
+        document.getElementById('all').style.display = 'none';
+        console.log("Please restart site with more resolution")
+        alert("Please restart site with more resolution");
+    }
+
 });
 
 function playSound() {
     var audio = document.getElementById("myAudio");
     audio.play();
 }
+
+
+
